@@ -1,0 +1,167 @@
+/*  `xs` returns only a ruleset and no media query */
+@media (max-width: 375px) {
+  .hide-xs {
+    display: none !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .header-text h2::after {
+    top: 92px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    background-color: #41464a;
+    text-align: center;
+  }
+  .navbar-toggler {
+    background-color: #41464a;
+  }
+  .lernmore a {
+    display: block;
+    text-align: center;
+  }
+  .banner-button {
+    display: inline;
+  }
+  .expertise-logo p {
+    padding: 30px !important;
+  }
+  .address-part h4 {
+    padding-bottom: 13px;
+  }
+  .stay-in-touch h4 {
+    padding-bottom: 15px;
+  }
+  .news-icon {
+    right: 94px !important;
+    top: 45%;
+  }
+  .address-part p {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+  .left-ang {
+    left: 5% !important;
+    bottom: 60px;
+  }
+  .right-ang {
+    right: 4% !important;
+    bottom: 60px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    background-color: #41464a;
+    text-align: center;
+  }
+  .navbar-toggler {
+    background-color: #41464a;
+  }
+  .header-text {
+    padding-top: 150px;
+    padding-bottom: 180px;
+  }
+  .header-text p {
+    padding: 0px 23px 53px 23px;
+  }
+  .our-text h3 {
+    padding-bottom: 15px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .our-text p {
+    padding-bottom: 15px;
+  }
+  #our-story {
+    padding: 35px 0px;
+  }
+  .lernmore a {
+    display: block;
+    text-align: center;
+  }
+  .banner-button {
+    display: -webkit-inline-box !important;
+  }
+  .our-text p {
+    padding-right: 0px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  #video-part {
+    padding: 100px 0px;
+  }
+  .expertise-text p {
+    padding-bottom: 10px;
+  }
+  .expertise-logo p {
+    padding: 0px 240px 15px 240px;
+  }
+  .expertise-logo {
+    border: solid 1px #ebebeb;
+    border-left: none;
+    border-right: none;
+  }
+  .work1 {
+    border-top: none;
+  }
+  .expertise-logo h5 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  #expertise {
+    padding: 35px 0px;
+  }
+  #team-intro {
+    padding: 35px 0px;
+  }
+  .hiring p {
+    padding-bottom: 35px;
+  }
+  .hiring {
+    padding-top: 35px;
+  }
+  .left-ang {
+    left: 21%;
+  }
+  .right-ang {
+    right: 22%;
+  }
+  .client-text h3 {
+    padding-bottom: 5px;
+    margin-left: 0px;
+    border-bottom: solid 1px #ebebeb;
+    display: inline;
+  }
+  .client-logo {
+    padding-bottom: 25px;
+    margin-left: 0px;
+    padding-top: 12px;
+  }
+  .news-icon {
+    right: 0px;
+  }
+  .news .form-control {
+    width: 68%;
+  }
+  #review-part {
+    padding: 35px 0px;
+  }
+  #our-work-gallery {
+    padding: 35px 0px;
+  }
+  #footer-part {
+    padding: 35px 0px;
+  }
+  #people-say {
+    padding: 35px 0px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1399.98px) {
+}
